@@ -1,30 +1,20 @@
+import logging
+from loguru import logger
 import hydra
 from omegaconf import DictConfig, OmegaConf
 from pathlib import Path
+import numpy as np
+import wave
 import whisper
 import datetime
-import rich
-import subprocess
-
 import torch
-import pyannote.audio
 from pyannote.audio.pipelines.speaker_verification import PretrainedSpeakerEmbedding
-
 from pyannote.audio import Audio
 from pyannote.core import Segment
-
-import wave
-import contextlib
-
 from sklearn.cluster import AgglomerativeClustering
-import numpy as np
-
-import logging
 
 speechbrain_logger = logging.getLogger("speechbrain")
 speechbrain_logger.setLevel(logging.ERROR)
-
-from loguru import logger
 
 
 @torch.inference_mode()
