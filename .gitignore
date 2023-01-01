@@ -1,0 +1,9 @@
+*.wav*
+*.mp3*
+*.mp4
+outputs/
+cache/
+*.zip
+.DS_Store
+*.txt
+!requirements.txt

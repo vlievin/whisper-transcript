@@ -1,0 +1,12 @@
+device: cuda
+model: large
+embedding_model: speechbrain/spkrec-ecapa-voxceleb
+input_file: sample.wav
+download_root: ./cache/
+num_speakers: 2
+decode_options:
+  language: English
+  temperature: 0.5
+  best_of: 10
+  fp16: true
+  verbose: true

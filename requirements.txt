@@ -1,0 +1,6 @@
+hydra-core
+torch
+whisper
+pyannote.audio
+scikit-learn
+loguru
