@@ -1,3 +1,0 @@
-- device=cuda
-- model=large
-- input_file=sample.wav
