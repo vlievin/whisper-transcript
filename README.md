@@ -1,6 +1,6 @@
 # Simple toolbox for transcription using Whisper
 
-This script gathers the code presented in [this tutorial](https://www.youtube.com/watch?v=MVW746z8y_I) to transcribe audio/video interviews to text. Credits to [Dwarkesh Patel](https://twitter.com/dwarkesh_sp/status/1579672641887408129).
+This script gathers the code presented in [this tutorial](https://www.youtube.com/watch?v=MVW746z8y_I) to transcribe audio/video interviews with speaker identififaction (SPEAKER 1: ...). Credits to [Dwarkesh Patel](https://twitter.com/dwarkesh_sp/status/1579672641887408129).
 
 ## Usage
 
